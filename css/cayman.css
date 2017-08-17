@@ -49,7 +49,7 @@ a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     border-color: rgba(255, 255, 255, 0.3);
-    opcity: 0.2;}
+    opacity: 0.2;}
 
   .btn + .btn {
     margin-left: 1rem; }
@@ -277,6 +277,6 @@ a {
 .custom_button2{
   background-color: #38A59F;
   width: 10%;
-  height: 50px;  
+  box-sizing: border-box;  
 }
 
