@@ -9,10 +9,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
-
 a {
-  color: #1e6bb8;
-  text-decoration: none; }
+  color: #1e6bb8;  text-decoration: none; }
   a:hover {
     text-decoration: underline; }
 
@@ -22,9 +20,7 @@ a {
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
+  border-style: solid;  border-width: 1px;  border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn:hover {
     color: rgba(255, 255, 255, 0.8);
@@ -33,8 +29,7 @@ a {
     border-color: rgba(255, 255, 255, 0.3); }
   .btn + .btn {
     margin-left: 1rem; }
-  @media screen and (min-width: 64em) {
-    .btn {
+  @media screen and (min-width: 64em) {    .btn {
       width: 150px;
       padding: 0.75rem 1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -66,6 +61,10 @@ a {
   @media screen and (max-width: 42em) {
     .page-header {
       padding: 2rem 1rem; } }
+
+.page-header{
+  padding-top:15px;
+  padding-bottom:15px;}
 
 .project-name {
   margin-top: 0;
