@@ -1,11 +1,4 @@
 
-.custom_button{
-  background-color: #39A59F;
-}
-
-
-
-
 * {
   box-sizing: border-box; }
 
@@ -185,7 +178,8 @@ a {
     border: 0; }
     .main-content pre code:before, .main-content pre code:after,
     .main-content pre tt:before,
-    .main-content pre tt:after {
+
+.main-content pre tt:after {
       content: normal; }
   .main-content ul,
   .main-content ol {
@@ -249,3 +243,13 @@ a {
 
 .site-footer-credits {
   color: #819198; }
+
+
+
+
+.custom_button{
+  background-color: #39A59F;
+}
+
+
+
