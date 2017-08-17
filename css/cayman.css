@@ -18,6 +18,7 @@ input[type=text]:focus {
 
 
 
+
 * {
   box-sizing: border-box; }
 
@@ -25,7 +26,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+
+    font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
 a {
@@ -45,7 +47,11 @@ a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3); }
+    border-color: rgba(255, 255, 255, 0.3);
+  .custom_button2{
+  background-color: #38A59F;
+  width: 10%;}
+}
   .btn + .btn {
     margin-left: 1rem; }
   @media screen and (min-width: 64em) {    .btn {
@@ -273,10 +279,4 @@ a {
   background-color: #38A59F;
   width: 10%;
 }
-
-.custom_button2:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: #38A59F;
-  border-color: rgba(255, 255, 255, 0.3); }
 
