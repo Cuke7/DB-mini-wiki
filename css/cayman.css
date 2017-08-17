@@ -274,5 +274,9 @@ a {
   width: 10%;
 }
 
-
+.custom_button2:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: #38A59F;
+  border-color: rgba(255, 255, 255, 0.3); }
 
