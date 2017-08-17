@@ -47,11 +47,8 @@ a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-  .custom_button2{
-  background-color: #38A59F;
-  width: 10%;}
-}
+    border-color: rgba(255, 255, 255, 0.3);}
+
   .btn + .btn {
     margin-left: 1rem; }
   @media screen and (min-width: 64em) {    .btn {
