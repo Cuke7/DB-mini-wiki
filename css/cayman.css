@@ -15,7 +15,7 @@ input[type=text] {
     transition: width 0.4s ease-in-out;}
 
 input[type=text]:focus {
-    width: 80%;}
+    width: 70%;}
 
 
 
@@ -277,6 +277,5 @@ a {
 .custom_button2{
   background-color: #38A59F;
   width: 10%;
-  box-sizing: border-box;  
 }
 
