@@ -78,5 +78,4 @@ var arr =[
 "Yojimbo",
 "Zaan",
 "Zanmato",
-"Zeig",
-];
+"Zeig"];
