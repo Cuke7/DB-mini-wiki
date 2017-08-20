@@ -1,5 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  
+  <script src="scripts/data.js"></script>
+  
+  <script>
+ var arr = ["abcde", "abbccddee", "bbbbccd"];
+ var array = ["demo", "demo2", "demo3"];
+</script>
+<script>
+function myFunction() {
+	var pos=0;
+    var x = document.getElementById("myText").value;
+    for(var i=0;i<arr.length;i++){
+     if (arr[i].includes(x)) {
+     //In the array!
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML=arr[i];
+     pos++;
+     if(pos==3){
+     pos=0;
+     }
+     } else {
+     //Not in the array
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML="";
+     }
+}
+    
+}
+</script>
+  
+  
+  
+  
   <head>
     <meta charset="UTF-8">
     <title>Wiki</title>
