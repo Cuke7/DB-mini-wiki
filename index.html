@@ -18,6 +18,16 @@ function myFunction() {
      if(pos==3){
      pos=0;
      }
+     if(document.getElementById(array[0]).innerHTML.includes(x)=false){
+     document.getElementById(array[0]).innerHTML="";
+     }	     
+     if(document.getElementById(array[1]).innerHTML.includes(x)=false){
+     document.getElementById(array[1]).innerHTML="";
+     }	
+     if(document.getElementById(array[2]).innerHTML.includes(x)=false){
+     document.getElementById(array[2]).innerHTML="";
+     }	
+	     
      } else {
      //Not in the array
      document.getElementById(array[pos]).setAttribute("href",x);
