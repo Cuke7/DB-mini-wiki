@@ -1,13 +1,4 @@
 function search() {
-	
-	if(document.getElementById(array[0]).innerHTML==""){
-	document.getElementById(array[0]).innerHTML=document.getElementById(array[1]).innerHTML;
-	document.getElementById(array[1]).innerHTML="";
-	}
-	if(document.getElementById(array[1]).innerHTML==""){
-	document.getElementById(array[1]).innerHTML=document.getElementById(array[2]).innerHTML;
- 	document.getElementById(array[2]).innerHTML="";
-	}
 		
     var pos=0;
     var x = document.getElementById("myText").value;
@@ -36,4 +27,13 @@ function search() {
      document.getElementById(array[pos]).innerHTML="";
      }
 }
+	
+	if(document.getElementById(array[0]).innerHTML==""){
+	document.getElementById(array[0]).innerHTML=document.getElementById(array[1]).innerHTML;
+	document.getElementById(array[1]).innerHTML="";
+	}
+	if(document.getElementById(array[1]).innerHTML==""){
+	document.getElementById(array[1]).innerHTML=document.getElementById(array[2]).innerHTML;
+ 	document.getElementById(array[2]).innerHTML="";
+	}
 }
