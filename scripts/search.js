@@ -27,13 +27,4 @@ function search() {
      document.getElementById(array[pos]).innerHTML="";
      }
 }
-	
-	if(document.getElementById(array[0]).innerHTML==""){
-	document.getElementById(array[0]).innerHTML=document.getElementById(array[1]).innerHTML;
-	document.getElementById(array[1]).innerHTML="";
-	}
-	if(document.getElementById(array[1]).innerHTML==""){
-	document.getElementById(array[1]).innerHTML=document.getElementById(array[2]).innerHTML;
- 	document.getElementById(array[2]).innerHTML="";
-	}
 }
