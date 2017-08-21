@@ -17,4 +17,9 @@ function search() {
      document.getElementById(array[pos]).innerHTML="";
      }
 }
+	if(x==""){
+		document.getElementById(array[0]).innerHTML="";
+		document.getElementById(array[1]).innerHTML="";
+		document.getElementById(array[2]).innerHTML="";
+	}
 }
