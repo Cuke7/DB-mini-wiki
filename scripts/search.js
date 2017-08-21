@@ -40,4 +40,10 @@ function search() {
 		document.getElementById(array[4]).innerHTML=document.getElementById(array[5]).innerHTML;
 		document.getElementById(array[5]).innerHTML="";
 	}
+	
+	for( var j=0;j<array.length;j++){
+	if(document.getElementById(array[j]).innerHTML.toLowerCase().includes(x)==false){
+		document.getElementById(array[j]).innerHTML="";
+	}
+	}
 }
