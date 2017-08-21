@@ -24,4 +24,8 @@ function search() {
 		document.getElementById(array[3]).innerHTML="";
 		document.getElementById(array[4]).innerHTML="";
 	}
+	if(document.getElementById(array[1]).innerHTML==""){
+		document.getElementById(array[1]).innerHTML=document.getElementById(array[2]).innerHTML;
+		document.getElementById(array[2]).innerHTML="";
+	}
 }
