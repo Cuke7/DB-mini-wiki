@@ -28,6 +28,11 @@ function search() {
 		document.getElementById(array[3]).innerHTML="";
 		document.getElementById(array[4]).innerHTML="";
 	}
+	
+	if(document.getElementById(array[0]).innerHTML==""){
+		document.getElementById(array[0]).innerHTML=document.getElementById(array[1]).innerHTML;
+		document.getElementById(array[1]).innerHTML="";
+	}
 	if(document.getElementById(array[1]).innerHTML==""){
 		document.getElementById(array[1]).innerHTML=document.getElementById(array[2]).innerHTML;
 		document.getElementById(array[2]).innerHTML="";
@@ -39,10 +44,6 @@ function search() {
 	if(document.getElementById(array[3]).innerHTML==""){
 		document.getElementById(array[3]).innerHTML=document.getElementById(array[4]).innerHTML;
 		document.getElementById(array[4]).innerHTML="";
-	}
-	if(document.getElementById(array[4]).innerHTML==""){
-		document.getElementById(array[4]).innerHTML=document.getElementById(array[5]).innerHTML;
-		document.getElementById(array[5]).innerHTML="";
 	}
 	
 	for( var j=0;j<array.length;j++){
