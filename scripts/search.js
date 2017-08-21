@@ -5,7 +5,7 @@ function search() {
     for(var i=0;i<Character.length;i++){
      if (Character[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).setAttribute("href","characters.html#"+Character[i]);
      document.getElementById(array[pos]).innerHTML=Character[i];
      pos++;
      if(pos==5){
