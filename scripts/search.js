@@ -1,5 +1,9 @@
 function search() {
-		
+	document.getElementById(array[0]).innerHTML="";
+	document.getElementById(array[1]).innerHTML="";
+	document.getElementById(array[2]).innerHTML="";
+	document.getElementById(array[3]).innerHTML="";
+	document.getElementById(array[4]).innerHTML="";	
     var pos=0;
     var x = document.getElementById("myText").value.toLowerCase();
     for(var i=0;i<Character.length;i++){
