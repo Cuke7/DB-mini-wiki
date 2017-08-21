@@ -2,7 +2,7 @@ function search() {
 		
     var pos=0;
     var x = document.getElementById("myText").value.toLowerCase();
-    for(var i=Character.length;i>0;i--){
+    for(var i=0;i<Character.length;i++){
      if (Character[i].toLowerCase().includes(x) && x!="") {
      //In the array!
      document.getElementById(array[pos]).setAttribute("href",x);
