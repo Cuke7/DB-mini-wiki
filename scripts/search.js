@@ -8,7 +8,7 @@ function search() {
      document.getElementById(array[pos]).setAttribute("href",x);
      document.getElementById(array[pos]).innerHTML=Character[i];
      pos++;
-     if(pos==3){
+     if(pos==4){
      pos=0;
      }     
      } else {
@@ -21,5 +21,6 @@ function search() {
 		document.getElementById(array[0]).innerHTML="";
 		document.getElementById(array[1]).innerHTML="";
 		document.getElementById(array[2]).innerHTML="";
+		document.getElementById(array[3]).innerHTML="";
 	}
 }
