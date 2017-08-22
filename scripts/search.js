@@ -30,6 +30,7 @@ function search() {
 	}
 	
 	if(document.getElementById(array[0]).innerHTML==""){
+		document.getElementById(array[0]).setAttribute("href",document.getElementById(array[1]).getAttribute("href"));
 		document.getElementById(array[0]).innerHTML=document.getElementById(array[1]).innerHTML;
 		document.getElementById(array[1]).innerHTML="";
 	}
