@@ -1,4 +1,4 @@
-function search() {
+function search2() {
 	document.getElementById(array2[0]).innerHTML="";
 	document.getElementById(array2[1]).innerHTML="";
 	document.getElementById(array2[2]).innerHTML="";
