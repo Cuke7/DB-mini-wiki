@@ -1,7 +1,7 @@
 function focus(){
- document.getElementById("link1").click();
+ location.hash =label1;
 }
 
 function focus2(){
- document.getElementById("link2").click();
+  location.hash =label2;
 }
