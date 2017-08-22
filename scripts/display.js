@@ -4,6 +4,6 @@ function focus(){
 }
 
 function focus2(){ 
- var element_to_scroll_to = document.getElementById('label1');
+ var element_to_scroll_to = document.getElementById('label2');
  element_to_scroll_to.scrollIntoView();
 }
