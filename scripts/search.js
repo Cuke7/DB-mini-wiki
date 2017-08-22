@@ -7,7 +7,8 @@ function search() {
 	document.getElementById(array[4]).innerHTML="";	
     var pos=0;
     var x = document.getElementById("myText").value.toLowerCase();
-    for(var i=0;i<Character.length;i++){
+	
+     for(var i=0;i<Character.length;i++){
      if (Character[i].toLowerCase().includes(x) && x!="") {
      //In the array!
      document.getElementById(array[pos]).setAttribute("href","characters.html#"+Character[i]);
@@ -22,6 +23,23 @@ function search() {
      document.getElementById(array[pos]).innerHTML="";
      }
 }
+	
+     for(var i=0;i<Name.length;i++){
+     if (Name[i].toLowerCase().includes(x) && x!="") {
+     //In the array!
+     document.getElementById(array2[pos]).setAttribute("href","basic_units.html#"+Name[i]);
+     document.getElementById(array2[pos]).innerHTML=Name[i];
+     pos++;
+     if(pos==5){
+     pos=0;
+     }     
+     } else {
+     //Not in the array
+     document.getElementById(array2[pos]).setAttribute("href",x);
+     document.getElementById(array2[pos]).innerHTML="";
+     }
+}
+	
 	if(x==""){
 		document.getElementById(array[0]).innerHTML="";
 		document.getElementById(array[1]).innerHTML="";
