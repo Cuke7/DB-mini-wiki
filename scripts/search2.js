@@ -9,7 +9,7 @@ function search2() {
     for(var i=0;i<Name.length;i++){
      if (Name[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array2[pos]).setAttribute("href","Basic_units.html#"+Name[i]);
+     document.getElementById(array2[pos]).setAttribute("href","basic_units.html#"+Name[i]);
      document.getElementById(array2[pos]).innerHTML=Name[i];
      pos++;
      if(pos==5){
