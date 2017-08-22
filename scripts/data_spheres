@@ -158,6 +158,8 @@ Usedby[44] = "Dismara, Raven";
 Offensespheres[45] = "Wide Slash";
 Usedby[45] = "Orion";
 
+var lsz = 28;
+
 var Defensespheres = Array([lsz]);
 var Usedby = Array([lsz]);
 
@@ -241,3 +243,66 @@ Usedby[25] = "Dr. Gloom";
 
 Defensespheres[26] = "Tornado Guard";
 Usedby[26] = "Arthur";
+
+
+var lsz = 20;
+
+var Supportspheres = Array([lsz]);
+var Usedby = Array([lsz]);
+
+Supportspheres[0] = "Blue Song";
+Usedby[0] = "Erika";
+
+Supportspheres[1] = "Boost ATK";
+Usedby[1] = "Warlock, Warrior, Butz, Ruthie, Arc";
+
+Supportspheres[2] = "Boost DEF";
+Usedby[2] = "Knight, Paladin, Zanmato";
+
+Supportspheres[3] = "Boost SPD";
+Usedby[3] = "Archer, Necromancer, Morgan, Ragnas, Wedge, Lavitz";
+
+Supportspheres[4] = "Cure";
+Usedby[4] = "Cleric, Artemis";
+
+Supportspheres[5] = "Dance";
+Usedby[5] = "Bard";
+
+Supportspheres[6] = "Grand Cure";
+Usedby[6] = "Eoqueth";
+
+Supportspheres[7] = "Green Song";
+Usedby[7] = "Juliet";
+
+Supportspheres[8] = "Guard";
+Usedby[8] = "Dragonslayer, Agamemnon, Arden, Grom, Promecia, Ringabolt, Varus";
+
+Supportspheres[9] = "Hex Hellion";
+Usedby[9] = "Atnas";
+
+Supportspheres[10] = "Interrupt Cast";
+Usedby[10] = "Towel mage Juliet, Raven";
+
+Supportspheres[11] = "Interrupt Shot";
+Usedby[11] = "Thief, Anna";
+
+Supportspheres[12] = "Interrupt Slash";
+Usedby[12] = "Berserker, Roland, Beach boy Luke";
+
+Supportspheres[13] = "Mighty Cure";
+Usedby[13] = "Alice, Luna";
+
+Supportspheres[14] = "Reaper Shot";
+Usedby[14] = "Leos, Lloyd";
+
+Supportspheres[15] = "Red Song";
+Usedby[15] = "Mercutio";
+
+Supportspheres[16] = "Restore";
+Usedby[16] = "Druid, Azelas ,Belle, Nami";
+
+Supportspheres[17] = "Sing";
+Usedby[17] = "Pirate, Mel";
+
+Supportspheres[18] = "Symphony No.99";
+Usedby[18] = "Trill";
