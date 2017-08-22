@@ -1,3 +1,4 @@
+
 function search2() {
 	document.getElementById(array2[0]).innerHTML="";
 	document.getElementById(array2[1]).innerHTML="";
@@ -30,18 +31,22 @@ function search2() {
 	}
 	
 	if(document.getElementById(array2[0]).innerHTML==""){
+		document.getElementById(array2[0]).setAttribute("href",document.getElementById(array2[1]).getAttribute("href"));
 		document.getElementById(array2[0]).innerHTML=document.getElementById(array2[1]).innerHTML;
 		document.getElementById(array2[1]).innerHTML="";
 	}
 	if(document.getElementById(array2[1]).innerHTML==""){
+		document.getElementById(array2[1]).setAttribute("href",document.getElementById(array2[2]).getAttribute("href"));
 		document.getElementById(array2[1]).innerHTML=document.getElementById(array2[2]).innerHTML;
 		document.getElementById(array2[2]).innerHTML="";
 	}
 	if(document.getElementById(array2[2]).innerHTML==""){
+		document.getElementById(array2[2]).setAttribute("href",document.getElementById(array2[3]).getAttribute("href"));
 		document.getElementById(array2[2]).innerHTML=document.getElementById(array2[3]).innerHTML;
 		document.getElementById(array2[3]).innerHTML="";
 	}
 	if(document.getElementById(array2[3]).innerHTML==""){
+		document.getElementById(array2[3]).setAttribute("href",document.getElementById(array2[4]).getAttribute("href"));
 		document.getElementById(array2[3]).innerHTML=document.getElementById(array2[4]).innerHTML;
 		document.getElementById(array2[4]).innerHTML="";
 	}
