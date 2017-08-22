@@ -42,11 +42,11 @@ function search() {
      }
 }
      // --------------------------Offensive spheres-----------------------------
-     for(var i=0;i<Offensiveshperes.length;i++){
-     if (Offensiveshperes[i].toLowerCase().includes(x) && x!="") {
+     for(var i=0;i<Offensespheres.length;i++){
+     if (Offensespheres[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Offensiveshperes[i]);
-     document.getElementById(array[pos]).innerHTML=Offensiveshperes[i];
+     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Offensespheres[i]);
+     document.getElementById(array[pos]).innerHTML=Offensespheres[i];
      pos++;
      if(pos==7){
      pos=0;
