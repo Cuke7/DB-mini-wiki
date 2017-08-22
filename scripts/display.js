@@ -1,7 +1,7 @@
 function focus(){
- location.hash =label1;
+ location.hash ="#" +label1;
 }
 
 function focus2(){
-  location.hash =label2;
+  location.hash ="#" +label2;
 }
