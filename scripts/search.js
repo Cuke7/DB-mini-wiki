@@ -9,7 +9,7 @@ function search() {
 	document.getElementById(array[6]).innerHTML="";	
     var pos=0;
     var x = document.getElementById("myText").value.toLowerCase();
-	
+    // --------------------------Characters-----------------------------
      for(var i=0;i<Character.length;i++){
      if (Character[i].toLowerCase().includes(x) && x!="") {
      //In the array!
@@ -22,9 +22,10 @@ function search() {
      } else {
      //Not in the array
      document.getElementById(array[pos]).setAttribute("href",x);
-     document.getElementById(array[pos]).innerHTML="";     }
+     document.getElementById(array[pos]).innerHTML="";     
+     }
 }
-	
+     // --------------------------Basic units-----------------------------
      for(var i=0;i<Name.length;i++){
      if (Name[i].toLowerCase().includes(x) && x!="") {
      //In the array!
@@ -40,7 +41,22 @@ function search() {
      document.getElementById(array[pos]).innerHTML="";
      }
 }
-	
+	// --------------------------Offensive spheres-----------------------------
+     for(var i=0;i<Name.length;i++){
+     if (Offenseshperes[i].toLowerCase().includes(x) && x!="") {
+     //In the array!
+     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Name[i]);
+     document.getElementById(array[pos]).innerHTML=Name[i];
+     pos++;
+     if(pos==7){
+     pos=0;
+     }     
+     } else {
+     //Not in the array
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML="";
+     }
+}
 	if(x==""){
 		document.getElementById(array[0]).innerHTML="";
 		document.getElementById(array[1]).innerHTML="";
