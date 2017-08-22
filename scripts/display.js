@@ -1,7 +1,7 @@
 function focus(){
- window.scrollTo(0, 400);
+ document.getElementById("link1").click();
 }
 
 function focus2(){
- window.scrollTo(0, 650);
+ document.getElementById("link2").click();
 }
