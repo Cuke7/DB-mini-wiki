@@ -1,5 +1,5 @@
 function focus(){
- window.scrollTo(0, 450);
+ window.scrollTo(0, 400);
 }
 
 function focus2(){
