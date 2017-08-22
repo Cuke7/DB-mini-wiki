@@ -16,7 +16,7 @@ function search() {
      document.getElementById(array[pos]).setAttribute("href","characters.html#"+Character[i]);
      document.getElementById(array[pos]).innerHTML=Character[i];
      pos++;
-     if(pos==5){
+     if(pos==7){
      pos=0;
      }     
      } else {
@@ -58,11 +58,11 @@ function search() {
      }
 }
      // --------------------------Defensive spheres-----------------------------
-     for(var i=0;i<Defensiveshperes.length;i++){
-     if (Defensiveshperes[i].toLowerCase().includes(x) && x!="") {
+     for(var i=0;i<Defensespheres.length;i++){
+     if (Defensespheres[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Defensiveshperes[i]);
-     document.getElementById(array[pos]).innerHTML=Defensiveshperes[i];
+     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Defensespheres[i]);
+     document.getElementById(array[pos]).innerHTML=Defensespheres[i];
      pos++;
      if(pos==7){
      pos=0;
@@ -74,11 +74,11 @@ function search() {
      }
 }
      // --------------------------Support spheres-----------------------------
-     for(var i=0;i<Supportshperes.length;i++){
-     if (Supportshperes[i].toLowerCase().includes(x) && x!="") {
+     for(var i=0;i<Supportspheres.length;i++){
+     if (Supportspheres[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Supportshperes[i]);
-     document.getElementById(array[pos]).innerHTML=Supportshperes[i];
+     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Supportspheres[i]);
+     document.getElementById(array[pos]).innerHTML=Supportspheres[i];
      pos++;
      if(pos==7){
      pos=0;
