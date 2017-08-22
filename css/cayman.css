@@ -281,3 +281,23 @@ a {
   width: 20%;
 }
 
+.char{
+    color: #000000;
+}
+
+.unit{
+    color: #706c6c;
+}
+
+.offense{
+    color: #d61d1d;
+}
+
+.defense{
+    color: #1bc129;
+}
+
+.support{
+    color: #2c3ee8;
+}
+
