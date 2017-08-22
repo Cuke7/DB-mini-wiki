@@ -1,5 +1,4 @@
 function search() {
-	window.scrollTo(0, 450);
 	document.getElementById(array[0]).innerHTML="";
 	document.getElementById(array[1]).innerHTML="";
 	document.getElementById(array[2]).innerHTML="";
