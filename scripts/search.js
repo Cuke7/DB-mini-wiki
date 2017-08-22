@@ -27,16 +27,16 @@ function search() {
      for(var i=0;i<Name.length;i++){
      if (Name[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array2[pos]).setAttribute("href","basic_units.html#"+Name[i]);
-     document.getElementById(array2[pos]).innerHTML=Name[i];
+     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Name[i]);
+     document.getElementById(array[pos]).innerHTML=Name[i];
      pos++;
      if(pos==5){
      pos=0;
      }     
      } else {
      //Not in the array
-     document.getElementById(array2[pos]).setAttribute("href",x);
-     document.getElementById(array2[pos]).innerHTML="";
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML="";
      }
 }
 	
