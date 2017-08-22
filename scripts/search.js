@@ -22,8 +22,7 @@ function search() {
      } else {
      //Not in the array
      document.getElementById(array[pos]).setAttribute("href",x);
-     document.getElementById(array[pos]).innerHTML="";
-     }
+     document.getElementById(array[pos]).innerHTML="";     }
 }
 	
      for(var i=0;i<Name.length;i++){
@@ -32,7 +31,7 @@ function search() {
      document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Name[i]);
      document.getElementById(array[pos]).innerHTML=Name[i];
      pos++;
-     if(pos==5){
+     if(pos==7){
      pos=0;
      }     
      } else {
@@ -72,10 +71,15 @@ function search() {
 		document.getElementById(array[3]).innerHTML=document.getElementById(array[4]).innerHTML;
 		document.getElementById(array[4]).innerHTML="";
 	}
-	if(document.getElementById(array[3]).innerHTML==""){
-		document.getElementById(array[3]).setAttribute("href",document.getElementById(array[4]).getAttribute("href"));
-		document.getElementById(array[3]).innerHTML=document.getElementById(array[4]).innerHTML;
-		document.getElementById(array[4]).innerHTML="";
+	if(document.getElementById(array[4]).innerHTML==""){
+		document.getElementById(array[4]).setAttribute("href",document.getElementById(array[5]).getAttribute("href"));
+		document.getElementById(array[4]).innerHTML=document.getElementById(array[5]).innerHTML;
+		document.getElementById(array[5]).innerHTML="";
+	}
+	if(document.getElementById(array[5]).innerHTML==""){
+		document.getElementById(array[5]).setAttribute("href",document.getElementById(array[6]).getAttribute("href"));
+		document.getElementById(array[5]).innerHTML=document.getElementById(array[6]).innerHTML;
+		document.getElementById(array[6]).innerHTML="";
 	}
 	
 	for( var j=0;j<array.length;j++){
