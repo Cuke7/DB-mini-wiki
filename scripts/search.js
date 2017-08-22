@@ -107,7 +107,7 @@ function search() {
 	 if(document.getElementById(array[k]).innerHTML==""){
 		document.getElementById(array[k]).setAttribute("href",document.getElementById(array[k+1]).getAttribute("href"));
 		document.getElementById(array[k]).innerHTML=document.getElementById(array[k+1]).innerHTML;
-		document.getElementById(array[k]).setAttribute("class",document.getElementById(array[k+1]).setAttribute("class"));
+		document.getElementById(array[k]).setAttribute("class",document.getElementById(array[k+1]).getAttribute("class"));
 		document.getElementById(array[k+1]).innerHTML="";
 	 }
 	}
