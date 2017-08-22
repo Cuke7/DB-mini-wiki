@@ -35,14 +35,17 @@ function search() {
 		document.getElementById(array[1]).innerHTML="";
 	}
 	if(document.getElementById(array[1]).innerHTML==""){
+		document.getElementById(array[1]).setAttribute("href",document.getElementById(array[2]).getAttribute("href"));
 		document.getElementById(array[1]).innerHTML=document.getElementById(array[2]).innerHTML;
 		document.getElementById(array[2]).innerHTML="";
 	}
 	if(document.getElementById(array[2]).innerHTML==""){
+		document.getElementById(array[2]).setAttribute("href",document.getElementById(array[3]).getAttribute("href"));
 		document.getElementById(array[2]).innerHTML=document.getElementById(array[3]).innerHTML;
 		document.getElementById(array[3]).innerHTML="";
 	}
 	if(document.getElementById(array[3]).innerHTML==""){
+		document.getElementById(array[3]).setAttribute("href",document.getElementById(array[4]).getAttribute("href"));
 		document.getElementById(array[3]).innerHTML=document.getElementById(array[4]).innerHTML;
 		document.getElementById(array[4]).innerHTML="";
 	}
