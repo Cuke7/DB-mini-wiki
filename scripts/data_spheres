@@ -158,4 +158,86 @@ Usedby[44] = "Dismara, Raven";
 Offensespheres[45] = "Wide Slash";
 Usedby[45] = "Orion";
 
+var Defensespheres = Array([lsz]);
+var Usedby = Array([lsz]);
 
+Defensespheres[0] = "Aegis";
+Usedby[0] = "Paladin, Gafgard, Promecia";
+
+Defensespheres[1] = "Bolster ATK";
+Usedby[1] = "Sidara, Zaan, Bikini Promecia";
+
+Defensespheres[2] = "Bolster DEF";
+Usedby[2] = "Butz, Malphas, Varus, Wallace";
+
+Defensespheres[3] = "Bolster SPD";
+Usedby[3] = "Dragoon, Rogue, Asher, Dart, Randall";
+
+Defensespheres[4] = "Brave Song";
+Usedby[4] = "Bard, Juliet, Trill";
+
+Defensespheres[5] = "Counter Cast";
+Usedby[5] = "Azazel, Caius, Runeia";
+
+Defensespheres[6] = "Counter Punch";
+Usedby[6] = "Monk, Macho Ringabolt";
+
+Defensespheres[7] = "Counter Slash";
+Usedby[7] = "Knight";
+
+Defensespheres[8] = "Death Touch";
+Usedby[8] = "Yojimbo";
+
+Defensespheres[9] = "Defense Song";
+Usedby[9] = "Erika";
+
+Defensespheres[10] = "Deflect Projectiles";
+Usedby[10] = "Dragonslayer, Remmy";
+
+Defensespheres[11] = "Evade";
+Usedby[11] = "Ninja, Donno, Finn, Grimwald, Lancelot, Leos";
+
+Defensespheres[12] = "Healing Song";
+Usedby[12] = "Cleric, Alice";
+
+Defensespheres[13] = "Magna";
+Usedby[13] = "Azelas, Chrollo, Hadrian, Ominas";
+
+Defensespheres[14] = "Mimic";
+Usedby[14] = "Alchemist, Rorick, Wedge";
+
+Defensespheres[15] = "Ninjutsu";
+Usedby[15] = "Anna, Sasuke";
+
+Defensespheres[16] = "Nullbolt";
+Usedby[16] = "Mage";
+
+Defensespheres[17] = "Nullfire";
+Usedby[17] = "Thief";
+
+Defensespheres[18] = "Nullshard";
+Usedby[18] = "Eoqueth";
+
+Defensespheres[19] = "Quick Punch";
+Usedby[19] = "Fiora";
+
+Defensespheres[20] = "Quick Shot";
+Usedby[20] = "Hunter, Vicious";
+
+Defensespheres[21] = "Quick Slash";
+Usedby[21] = "Agamemnon, Luna";
+
+Defensespheres[22] = "Quickcast";
+Usedby[22] = "Sorcerer, Dismara,Lilith, Towel mage Juliet";
+
+Defensespheres[23] = "Regal Stance";
+Usedby[23] = "Cytomandra, Osymandias, Ringabolt";
+
+Defensespheres[24] = "Speed Song";
+Usedby[24] = "Mel";
+
+Defensespheres[25] = "Thornbrew";
+Usedby[25] = "Dr. Gloom";
+
+Defensespheres[26] = "Tornado Guard";
+Usedby[26] = "Arthur";
