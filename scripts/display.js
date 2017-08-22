@@ -1,7 +1,9 @@
 function focus(){
- location.hash ="#" +label1;
+ var element_to_scroll_to = document.getElementById('label1');
+ element_to_scroll_to.scrollIntoView();
 }
 
-function focus2(){
-  location.hash ="#" +label2;
+function focus2(){ 
+ var element_to_scroll_to = document.getElementById('label1');
+ element_to_scroll_to.scrollIntoView();
 }
