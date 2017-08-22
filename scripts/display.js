@@ -1,3 +1,3 @@
 focus(){
- window.scrollTo(450, 0);
+ window.scrollTo(0, 450);
 }
