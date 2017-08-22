@@ -1,4 +1,5 @@
 function search() {
+	focus();
 	document.getElementById(array[0]).innerHTML="";
 	document.getElementById(array[1]).innerHTML="";
 	document.getElementById(array[2]).innerHTML="";
