@@ -9,7 +9,7 @@ function search() {
 	document.getElementById(array[6]).innerHTML="";	
     var pos=0;
     var x = document.getElementById("myText").value.toLowerCase();
-    // --------------------------Characters-----------------------------
+     // --------------------------Characters-----------------------------
      for(var i=0;i<Character.length;i++){
      if (Character[i].toLowerCase().includes(x) && x!="") {
      //In the array!
@@ -41,12 +41,44 @@ function search() {
      document.getElementById(array[pos]).innerHTML="";
      }
 }
-	// --------------------------Offensive spheres-----------------------------
-     for(var i=0;i<Name.length;i++){
+     // --------------------------Offensive spheres-----------------------------
+     for(var i=0;i<Offenseshperes.length;i++){
      if (Offenseshperes[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Name[i]);
-     document.getElementById(array[pos]).innerHTML=Name[i];
+     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Offenseshperes[i]);
+     document.getElementById(array[pos]).innerHTML=Offenseshperes[i];
+     pos++;
+     if(pos==7){
+     pos=0;
+     }     
+     } else {
+     //Not in the array
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML="";
+     }
+}
+     // --------------------------Defensive spheres-----------------------------
+     for(var i=0;i<Defensiveshperes.length;i++){
+     if (Defensiveshperes[i].toLowerCase().includes(x) && x!="") {
+     //In the array!
+     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Defensiveshperes[i]);
+     document.getElementById(array[pos]).innerHTML=Defensiveshperes[i];
+     pos++;
+     if(pos==7){
+     pos=0;
+     }     
+     } else {
+     //Not in the array
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML="";
+     }
+}
+     // --------------------------Support spheres-----------------------------
+     for(var i=0;i<Supportshperes.length;i++){
+     if (Supportshperes[i].toLowerCase().includes(x) && x!="") {
+     //In the array!
+     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Supportshperes[i]);
+     document.getElementById(array[pos]).innerHTML=Supportshperes[i];
      pos++;
      if(pos==7){
      pos=0;
