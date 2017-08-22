@@ -45,7 +45,7 @@ function search() {
      for(var i=0;i<Offenseshperes.length;i++){
      if (Offenseshperes[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Offenseshperes[i]);
+     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Offenseshperes[i]);
      document.getElementById(array[pos]).innerHTML=Offenseshperes[i];
      pos++;
      if(pos==7){
@@ -61,7 +61,7 @@ function search() {
      for(var i=0;i<Defensiveshperes.length;i++){
      if (Defensiveshperes[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Defensiveshperes[i]);
+     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Defensiveshperes[i]);
      document.getElementById(array[pos]).innerHTML=Defensiveshperes[i];
      pos++;
      if(pos==7){
@@ -77,7 +77,7 @@ function search() {
      for(var i=0;i<Supportshperes.length;i++){
      if (Supportshperes[i].toLowerCase().includes(x) && x!="") {
      //In the array!
-     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Supportshperes[i]);
+     document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Supportshperes[i]);
      document.getElementById(array[pos]).innerHTML=Supportshperes[i];
      pos++;
      if(pos==7){
