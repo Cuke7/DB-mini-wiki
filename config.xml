@@ -8,5 +8,5 @@
 <!-- versionCode is optional and Android only -->
 
   <name>DB Wiki</name>
-
+  <icon src="icon.png" width="180" height="180" />
 </widget>
