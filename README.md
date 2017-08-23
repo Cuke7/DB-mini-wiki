@@ -1,4 +1,4 @@
-# Welcome !
+ # Welcome !
 
 This is the repository for the Dragonbolt mini wiki website.
 
@@ -12,4 +12,4 @@ Thanks !
 
 * * *
 
-23/8/2017 : Updated Kylocke and Macho Ringabolt stats
+23/8/2017 : Updated Kylocke and Macho Ringabolt stats + added "Top" button.
