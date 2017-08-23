@@ -9,3 +9,7 @@ Click <a href="DB_Wiki.apk" download="DB_Wiki"> here </a> to download the apk fo
 Feel free to send your feedback/suggestion to cuke.dev@gmail.com !
 
 Thanks !
+
+* * *
+
+23/8/2017 : Updated Kylocke and Macho Ringabolt stats
