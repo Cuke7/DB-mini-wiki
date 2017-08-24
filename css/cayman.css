@@ -7,7 +7,6 @@ input[type=text] {
     font-size: 16px;
     background-color: white;
 
-    background-image: url('searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -30,7 +29,6 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
     font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -43,8 +41,7 @@ a {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.08);  border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;  border-width: 1px;  border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn:hover {
@@ -63,7 +60,7 @@ a {
       width: 150px;
       padding: 0.6rem 0.9rem;
       font-size: 0.9rem; } }
-  @media screen and (max-width: 42em) {
+  @media screen and (max-width: 42em) { 
     .btn {
       display: block;
       width: 100%;
@@ -75,7 +72,8 @@ a {
       
       .custom_button2{
        display: inline-block;   
-      }}
+      }
+}
 
 .page-header {
   color: #fff;
@@ -129,13 +127,13 @@ a {
     margin-top: 16px; }
   @media screen and (min-width: 64em) {
     .main-content {
-      max-width: 64rem;
+      max-width: 67rem;
       padding: 2rem 6rem;
       margin: 0 auto;
       font-size: 1.1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .main-content {
-      padding: 2rem 4rem;
+      padding: 2rem 1rem;
       font-size: 1.1rem; } }
   @media screen and (max-width: 42em) {
     .main-content {
@@ -311,8 +309,8 @@ a {
 .top{
     display: none;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 5%;
+    right: 5%;
     z-index:99;
     border: none;
     outline: none;
@@ -322,3 +320,32 @@ a {
     border-radius: 10px;
 }
 
+.card { 
+display: inline-block; 
+box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2); 
+width: 280px;  
+padding: 10px 10px; 
+margin-top: 5px; 
+margin-right: 5px; 
+margin-left: 5px;
+margin-bottom: 10px;
+} 
+
+ .container { 
+padding: 2px 16px; 
+display: inline-block; 
+} 
+
+p.two {
+    border-style: solid;
+    border-color : green;
+    border-radius: 16px;
+    padding: 5px;
+    border-width: 2px;
+}
+
+.class_icon{
+    position: relative;
+    left: 115px;
+    bottom: 100px;
+}
