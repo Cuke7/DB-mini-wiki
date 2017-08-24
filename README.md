@@ -16,4 +16,4 @@ Thanks !
 
 23/8/2017 : Updated Kylocke and Macho Ringabolt stats + added "Top" button.
 
-24/8/2017 : Updated Dismara and Gafgard new sprites.
+24/8/2017 : Updated Dismara and Gafgard new sprites + New layout for the characters page.
