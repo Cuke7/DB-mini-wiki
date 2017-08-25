@@ -350,7 +350,6 @@ p.two {
 }
 
 .search_button{
-    width: 50px;
     display: none;
     position: fixed;
     bottom: 18%;
