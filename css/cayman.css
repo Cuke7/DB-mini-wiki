@@ -349,3 +349,17 @@ p.two {
     left: 115px;
     bottom: 90px;
 }
+
+.search_button{
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    z-index:99;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px;
+    background-color: #39A59F;
+    border-radius: 10px;
+}
