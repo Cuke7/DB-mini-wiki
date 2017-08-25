@@ -305,7 +305,6 @@ a {
     bottom: 20px;
     right: 20px;
 }
-
 .top{
     display: none;
     position: fixed;
@@ -351,9 +350,10 @@ p.two {
 }
 
 .search_button{
+    width: 50px;
     display: none;
     position: fixed;
-    bottom: 20%;
+    bottom: 18%;
     right: 5%;
     z-index:99;
     border: none;
