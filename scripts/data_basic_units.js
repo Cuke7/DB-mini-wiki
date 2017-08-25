@@ -33,7 +33,7 @@ Support[0] = "None";
 
 Name[1] = "Archer";
 Spritename[1] = "Archer";
-Used[1] = "Eoqueth, Rorick, Artemis, Grom, Lloyd, Petra";
+Used[1] = "Eoqueth, Rorick, Artemis, Grom, Lloyd, Petra, Genji";
 Offense[1] = "Double Shot III";
 Defense[1] = "None";
 Support[1] = "Boost SPD III";
@@ -60,8 +60,8 @@ Defense[4] = "Healing Song III";
 Support[4] = "Cure III";
 
 Name[5] = "Dragon Slayer";
-Spritename[5] = "Dragonslayer";
-Used[5] = "Grimwald, Yojimbo, Orion, Ringabolt, Ozymandias, Zeig";
+Spritename[5] = "Dragon_slayer";
+Used[5] = "Grimwald, Yojimbo, Orion, Ringabolt, Ozymandias, Zeig, Dragon slayer";
 Offense[5] = "Quadra Slash I";
 Defense[5] = "Deflect Projectiles II";
 Support[5] = "Guard I";
@@ -110,7 +110,7 @@ Support[11] = "None";
 
 Name[12] = "Necromancer";
 Spritename[12] = "Necromancer";
-Used[12] = "Zeig, Dr. Gloom, Azazel, Ominas";
+Used[12] = "Zeig, Dr. Gloom, Azazel, Ominas, Nobunaga";
 Offense[12] = "Shard III";
 Defense[12] = "None";
 Support[12] = "Boost SPD III";
@@ -159,7 +159,7 @@ Support[18] = "Interrupt Shot I";
 
 Name[19] = "Warlock";
 Spritename[19] = "Warlock";
-Used[19] = "Orion, Runeia, Rorick, Lilith, Sasuke";
+Used[19] = "Orion, Runeia, Rorick, Lilith, Sasuke, Nobunaga";
 Offense[19] = "Mightyfire II";
 Defense[19] = "None";
 Support[19] = "Boost ATK III";
