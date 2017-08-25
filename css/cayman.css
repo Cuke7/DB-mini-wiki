@@ -353,7 +353,7 @@ p.two {
 .search_button{
     display: none;
     position: fixed;
-    bottom: 10%;
+    bottom: 20%;
     right: 5%;
     z-index:99;
     border: none;
