@@ -20,4 +20,4 @@ Thanks !
 
 25/8/2017 : Added Genji and Nobunaga + New layout for the basic units page.
 
-29/8/2017 : Fixed support and defensive spheres colors on every pages.
+29/8/2017 : Fixed support and defensive sphere colors on every pages.
