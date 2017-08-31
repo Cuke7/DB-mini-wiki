@@ -186,7 +186,7 @@ MixSource[12] = "Summer band";
 Class[12] = "Lance";
 HP[12] = "97";
 ATK[12] = "97";
-DEF[12] = "68";
+DEF[12] = "58";
 SPD[12] = "58";
 
 Character[13] = "Belle";
@@ -202,16 +202,16 @@ DEF[13] = "45";
 SPD[13] = "57";
 
 Character[14] = "Bikini Promecia";
-Spritename[14] = "BIkini_Promecia";
+Spritename[14] = "Bikini_Promecia";
 Offensivesphere[14] = "Triple Shot II";
 Defensivesphere[14] = "Bolster ATK III";
 Supportsphere[14] = "None";
 MixSource[14] = "Summer band";
 Class[14] = "Gun";
-HP[14] = "100";
+HP[14] = "95";
 ATK[14] = "105";
 DEF[14] = "55";
-SPD[14] = "62";
+SPD[14] = "59";
 
 Character[15] = "Blaine";
 Spritename[15] = "Blaine";
@@ -388,10 +388,10 @@ Defensivesphere[29] = "Quick Shot I";
 Supportsphere[29] = "None";
 MixSource[29] = "Archer + Dragonslayer";
 Class[29] = "Bow";
-HP[29] = "-";
-ATK[29] = "-";
-DEF[29] = "-";
-SPD[29] = "-";
+HP[29] = "110";
+ATK[29] = "108";
+DEF[29] = "59";
+SPD[29] = "66";
 
 Character[30] = "Grimwald";
 Spritename[30] = "Grimwald";
@@ -467,9 +467,9 @@ SPD[35] = "53";
 
 Character[36] = "Lavitz";
 Spritename[36] = "Lavitz";
-Offensivesphere[36] = "None";
-Defensivesphere[36] = "None";
-Supportsphere[36] = "None";
+Offensivesphere[36] = "Break DEF III";
+Defensivesphere[36] = "";
+Supportsphere[36] = "Boost SPD III";
 MixSource[36] = "Warrior + Dragoon";
 Class[36] = "Lance";
 HP[36] = "100";
@@ -575,8 +575,8 @@ SPD[44] = "55";
 
 Character[45] = "Mephistopheles";
 Spritename[45] = "Mephistopheles";
-Offensivesphere[45] = "None";
-Defensivesphere[45] = "None";
+Offensivesphere[45] = "Grand Opus I";
+Defensivesphere[45] = "Mimic III";
 Supportsphere[45] = "None";
 MixSource[45] = "Dark Rune";
 Class[45] = "Fist";
@@ -640,10 +640,10 @@ Defensivesphere[50] = "Magna III";
 Supportsphere[50] = "None";
 MixSource[50] = "Warlock + Necromancer";
 Class[50] = "Staff";
-HP[50] = "-";
-ATK[50] = "-";
-DEF[50] = "-";
-SPD[50] = "-";
+HP[50] = "104";
+ATK[50] = "100";
+DEF[50] = "57";
+SPD[50] = "53";
 
 Character[51] = "Ominas";
 Spritename[51] = "Ominas";
@@ -880,10 +880,10 @@ Defensivesphere[70] = "None";
 Supportsphere[70] = "Interruptcast I";
 MixSource[70] = "Summer band";
 Class[70] = "Crystal";
-HP[70] = "108 (5*)";
-ATK[70] = "63 (5*)";
-DEF[70] = "41 (5*)";
-SPD[70] = "26 (5*)";
+HP[70] = "144";
+ATK[70] = "84";
+DEF[70] = "55";
+SPD[70] = "35";
 
 Character[71] = "Trill";
 Spritename[71] = "Trill";
@@ -1004,5 +1004,6 @@ HP[80] = "95";
 ATK[80] = "102";
 DEF[80] = "55";
 SPD[80] = "52";
+
 
 
