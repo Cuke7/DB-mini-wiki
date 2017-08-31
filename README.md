@@ -22,4 +22,4 @@ Thanks !
 
 29/8/2017 : Fixed support and defensive sphere colors on every pages.
 
-31/08/2017 : Updated Beach boy Luke, Bikini Promecia and Macho Ringabolt stats. Added Genji and Nobunaga stats.
+31/08/2017 : Updated Beach boy Luke, Bikini Promecia and Macho Ringabolt stats. Added Genji and Nobunaga stats. Fixed Mephisto and Lavitz spheres.
