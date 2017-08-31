@@ -11,9 +11,9 @@ Asher,Asher,Focus III,Bolster SPD III,None,Dark rune,Dagger,100,101,48,53
 Atnas,Atnas,Grandfire I,None,Hex Hellion I,Mage + Necromancer,Staff,95,98,47,54
 Azazel,Azazel,Grandbolt I,Countercast II,None,Sorcerer + Necromancer,Tome,100,99,48,53
 Azelas,Azelas,Tricast II,Magna III,Restore II,Goody bag,Staff,99,87,61,65
-Beach boy Luke,Beach_boy_Luke,Awaken SPD III,None,Interrupt Slash I,Summer band,Lance,97,97,68,58
+Beach boy Luke,Beach_boy_Luke,Awaken SPD III,None,Interrupt Slash I,Summer band,Lance,97,97,58,58
 Belle,Belle,Grandshard II,None,Restore II,Mage + Cleric,Lance,95,87,45,57
-Bikini Promecia,BIkini_Promecia,Triple Shot II,Bolster ATK III,None,Summer band,Gun,100,105,55,62
+Bikini Promecia,Bikini_Promecia,Triple Shot II,Bolster ATK III,None,Summer band,Gun,95,105,55,59
 Blaine,Blaine,Mighty Opus II,None,None,Ninja + Bard,Harp,102,84,51,60
 Butz,Butz,None,Bolster DEF III,Boost ATK III,Berserker + Druid,Axe,115,99,40,55
 Caius,Caius,Shard III,Countercast II,None,Warrior + Warlock,Crystal,104,90,48,56
@@ -28,14 +28,14 @@ Erika,Erika,None,Defense Song III,Blue Song II,Ninja + Hunter,Dagger,90,92,50,70
 Finn,Finn,Break SPD II,"Evade I",None,Bard + Pirate,Gun,102,87,50,57
 Fiora,Fiora,Double Punch III,Quick Punch I,None,Thief + Monk,Fist,95,89,32,57
 Gafgard,Gafgard,Awaken DEF III,Aegis II,None,Paladin + Dragoon,Lance,110,70,70,50
-Genji,Genji,Triple Shot II,Quick Shot I,None,Archer + Dragonslayer,Bow,-,-,-,-
+Genji,Genji,Triple Shot II,Quick Shot I,None,Archer + Dragonslayer,Bow,110,108,59,66
 Grimwald,Grimwald,Vamp Slash II,Evade I,None,Knight + Dragonslayer,Axe,104,87,59,54
 Grom,Grom,Triple Shot II,None,Guard I,Archer + Rogue,Bow,115,84,52,48
 Hadrian,Hadrian,Tricast II,Magna III,None,Paladin + Druid,Staff,110,73,65,53
 Juliet,Juliet,None,Brave Song III,Green Song II,Bard + Sorcerer,Harp,104,84,55,56
 Kylocke,Kylocke,Brave Lightning I,Quickcast I,None,Dark Rune,Tome,110,113,59,66
 Lancelot,Lancelot,Awaken SPD III,Evade I,None,Monk + Dragoon,Lance,101,85,60,53
-Lavitz,Lavitz,None,None,None,Warrior + Dragoon,Lance,100,87,56,52
+Lavitz,Lavitz,Break DEF III,,Boost SPD III,Warrior + Dragoon,Lance,100,87,56,52
 Leos,Leos,Obliterate SPD I,None,Reaper Shot I,Goody bag,Dagger,115,99,40,75
 Lilith,Lilith,Mighybolt II,Quickcast I,None,Mage + Warlock,Crystal,93,99,40,54
 Lloyd,Lloyd,None,None,Reaper Shot I,Archer + Mage,Bow,91,93,52,64
@@ -44,12 +44,12 @@ Luna,Luna,Quick Slash II,None,Mightycure III,Warrior + Cleric,Sword,103,82,49,59
 Macho Ringabolt,Macho_Ringabolt,Quadra Punch I,Counter Punch I,None,Summer band,Fist,100,130,48,62
 Malphas,Malphas,Quadra Slash I,Bolster DEF III,None,Dark rune,Axe,110,70,70,50
 Mel,Mel,None,Speed Song III,Sing III,Monk + Hunter,Fist,106,82,56,55
-Mephistopheles,Mephistopheles,None,None,None,Dark Rune,Fist,100,100,52,54
+Mephistopheles,Mephistopheles,Grand Opus I,Mimic III,None,Dark Rune,Fist,100,100,52,54
 Mercutio,Mercutio,Grand Opus I,None,Red Song II,Mage + Bard,Harp,99,88,58,51
 Minotaur,Minotaur,None,None,None,Dark Rune,Unknown,180,80,60,48
 Morgan,Morgan,Break SPD III,None,Boost SPD III,Hunter + Pirate,Gun,104,90,45,60
 Nami,Nami,Barrage I,None,Restore II,Hinter + Druid,Bow,110,88,49,56
-Nobunaga,Nobunaga,Fire III,Magna III,None,Warlock + Necromancer,Staff,-,-,-,-
+Nobunaga,Nobunaga,Fire III,Magna III,None,Warlock + Necromancer,Staff,104,100,57,53
 Ominas,Ominas,Fire III,None,Magna III,Pirate + Necromancer,Staff,78,99,45,63
 Orion,Orion,Wide Slash I,None,None,Warlock + Dragonslayer,Axe,120,85,51,53
 Ozymandias,Ozymandias,Obliterate ATK I,Regal Stance I,None,Dragoon + Dradonslayer,Lance,100,100,52,54
@@ -69,7 +69,7 @@ Ruthie,Ruthie,Obliterate Def I,None,Boost ATK III,Rogue + Pirate,Gun,100,92,49,5
 Sasuke,Sasuke,Focus III,Ninjutsu I,None,Ninja + Warlock,Dagger,100,93,45,63
 Sidara,Sidara,Awaken ATK III,Bolster ATK III,None,Hunter + Berserker,Axe,102,95,54,51
 Tomnomo,Tomnomo,Barrage I,Brave Song III,None,Dark Rune,Bow,102,87,50,57
-Towell mage Juliet,Towel_mage_Juliet,Quickcast I,None,Interruptcast I,Summer band,Crystal,108 (5*),63 (5*),41 (5*),26 (5*)
+Towell mage Juliet,Towel_mage_Juliet,Quickcast I,None,Interruptcast I,Summer band,Crystal,144,84,55,35
 Trill,Trill,Grand Opus I,Brave Song III,Symphony No.99 I,Goody bag,Harp,164,74,55,56
 Varus,Varus,None,Bolster DEF III,Guard I,Thief + Knight,Sword,110,82,60,50
 Vicious,Vicious,Blunderblast I,Quick Shot I,None,Berserker + Pirate,Gun,95,95,49,58
