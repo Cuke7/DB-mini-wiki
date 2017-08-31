@@ -9,40 +9,7 @@ function search() {
 	document.getElementById(array[6]).innerHTML="";	
     var pos=0;
     var x = document.getElementById("myText").value.toLowerCase();
-     // --------------------------Characters-----------------------------
-     for(var i=0;i<Character.length;i++){
-     if (Character[i].toLowerCase().includes(x) && x!="") {
-     //In the array!
-     document.getElementById(array[pos]).setAttribute("href","characters.html#"+Character[i]);
-     document.getElementById(array[pos]).setAttribute("class","char");
-     document.getElementById(array[pos]).innerHTML=Character[i];
-     pos++;
-     if(pos==7){
-     pos=0;
-     }     
-     } else {
-     //Not in the array
-     document.getElementById(array[pos]).setAttribute("href",x);
-     document.getElementById(array[pos]).innerHTML="";     
-     }
-}
-     // --------------------------Basic units-----------------------------
-     for(var i=0;i<Name.length;i++){
-     if (Name[i].toLowerCase().includes(x) && x!="") {
-     //In the array!
-     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Name[i]);
-     document.getElementById(array[pos]).setAttribute("class","unit");
-     document.getElementById(array[pos]).innerHTML=Name[i];
-     pos++;
-     if(pos==7){
-     pos=0;
-     }     
-     } else {
-     //Not in the array
-     document.getElementById(array[pos]).setAttribute("href",x);
-     document.getElementById(array[pos]).innerHTML="";
-     }
-}
+
      // --------------------------Offensive spheres-----------------------------
      for(var i=0;i<Offensespheres.length;i++){
      if (Offensespheres[i].toLowerCase().includes(x) && x!="") {
@@ -84,6 +51,42 @@ function search() {
      document.getElementById(array[pos]).setAttribute("href","spheres.html#"+Supportspheres[i]);
      document.getElementById(array[pos]).setAttribute("class","support");
      document.getElementById(array[pos]).innerHTML=Supportspheres[i];
+     pos++;
+     if(pos==7){
+     pos=0;
+     }     
+     } else {
+     //Not in the array
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML="";
+     }
+}
+
+     // --------------------------Characters-----------------------------
+     for(var i=0;i<Character.length;i++){
+     if (Character[i].toLowerCase().includes(x) && x!="") {
+     //In the array!
+     document.getElementById(array[pos]).setAttribute("href","characters.html#"+Character[i]);
+     document.getElementById(array[pos]).setAttribute("class","char");
+     document.getElementById(array[pos]).innerHTML=Character[i];
+     pos++;
+     if(pos==7){
+     pos=0;
+     }     
+     } else {
+     //Not in the array
+     document.getElementById(array[pos]).setAttribute("href",x);
+     document.getElementById(array[pos]).innerHTML="";     
+     }
+}
+
+     // --------------------------Basic units-----------------------------
+     for(var i=0;i<Name.length;i++){
+     if (Name[i].toLowerCase().includes(x) && x!="") {
+     //In the array!
+     document.getElementById(array[pos]).setAttribute("href","basic_units.html#"+Name[i]);
+     document.getElementById(array[pos]).setAttribute("class","unit");
+     document.getElementById(array[pos]).innerHTML=Name[i];
      pos++;
      if(pos==7){
      pos=0;
